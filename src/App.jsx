@@ -84,7 +84,121 @@ export default function App() {
 
       </section>
 
-      <section className="contact">
+      <section className="contact"><section className="services">
+
+  <h2>Our Vehicles</h2>
+
+  <div className="service-grid">
+
+    <div className="service-card">
+      <img src="/cab1.jpg" alt="Cab" width="100%" />
+      <h3>Suzuki Dzire</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/cab2.jpg" alt="Cab" width="100%" />
+      <h3>Toyota Etios</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/cab3.jpg" alt="Cab" width="100%" />
+      <h3>Innova Crysta</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/truck1.jpg" alt="Truck" width="100%" />
+      <h3>Mini Truck</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/truck2.jpg" alt="Truck" width="100%" />
+      <h3>Tata Ace</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/travels1.jpg" alt="Travel" width="100%" />
+      <h3>Tourist Vehicle</h3>
+    </div>
+
+  </div>
+
+</section><section className="services">
+
+  <h2>Our Vehicles</h2>
+
+  <div className="service-grid">
+
+    <div className="service-card">
+      <img src="/cab1.jpg" alt="Cab" width="100%" />
+      <h3>Suzuki Dzire</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/cab2.jpg" alt="Cab" width="100%" />
+      <h3>Toyota Etios</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/cab3.jpg" alt="Cab" width="100%" />
+      <h3>Innova Crysta</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/truck1.jpg" alt="Truck" width="100%" />
+      <h3>Mini Truck</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/truck2.jpg" alt="Truck" width="100%" />
+      <h3>Tata Ace</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/travels1.jpg" alt="Travel" width="100%" />
+      <h3>Tourist Vehicle</h3>
+    </div>
+
+  </div>
+
+</section><section className="services">
+
+  <h2>Our Vehicles</h2>
+
+  <div className="service-grid">
+
+    <div className="service-card">
+      <img src="/cab1.jpg" alt="Cab" width="100%" />
+      <h3>Suzuki Dzire</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/cab2.jpg" alt="Cab" width="100%" />
+      <h3>Toyota Etios</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/cab3.jpg" alt="Cab" width="100%" />
+      <h3>Innova Crysta</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/truck1.jpg" alt="Truck" width="100%" />
+      <h3>Mini Truck</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/truck2.jpg" alt="Truck" width="100%" />
+      <h3>Tata Ace</h3>
+    </div>
+
+    <div className="service-card">
+      <img src="/travels1.jpg" alt="Travel" width="100%" />
+      <h3>Tourist Vehicle</h3>
+    </div>
+
+  </div>
+
+</section>
 
         <h2>Contact Us</h2>
 
