@@ -77,7 +77,7 @@ export default function App() {
 
           <div className="service-card">
             <img src="/cab1.jpg" alt="Swift" width="100%" />
-            <h3>Suzuki Dzire</h3>
+            <h3>Innova Crysta</h3>
           </div>
 
           <div className="service-card">
@@ -87,7 +87,7 @@ export default function App() {
 
           <div className="service-card">
             <img src="/cab3.jpg" alt="Innova" width="100%" />
-            <h3>Innova Crysta</h3>
+            <h3>Suzuki Dizer</h3>
           </div>
 <div className="service-card">
   <img src="/traveller.jpg" alt="Traveller" width="100%" />
