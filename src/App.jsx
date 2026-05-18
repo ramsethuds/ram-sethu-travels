@@ -1,3 +1,5 @@
+
+
 export default function App() {
   return (
     <div>
@@ -14,7 +16,13 @@ export default function App() {
           <a href="tel:+917483908290" className="call-btn">
             Call Now
           </a>
-
+<a
+  href="https://wa.me/917483908290"
+  target="_blank"
+  className="call-btn"
+>
+  WhatsApp
+</a>
         </div>
       </header>
 
@@ -59,146 +67,64 @@ export default function App() {
 
       </section>
 
+      {/* Cab Vehicles */}
+
       <section className="services">
 
-        <h2>Our Services</h2>
+        <h2>Cab Vehicles</h2>
 
         <div className="service-grid">
 
           <div className="service-card">
-            <h3>🚖 Cab Booking</h3>
-            <p>Affordable cab booking services.</p>
+            <img src="/cab1.jpg" alt="Swift" width="100%" />
+            <h3>Suzuki Dzire</h3>
           </div>
 
           <div className="service-card">
-            <h3>🚚 Mini Truck</h3>
-            <p>Mini truck transport services.</p>
+            <img src="/cab2.jpg" alt="Etios" width="100%" />
+            <h3>Toyota Etios</h3>
           </div>
 
           <div className="service-card">
-            <h3>🌍 Tours & Travels</h3>
-            <p>Comfortable travel packages.</p>
+            <img src="/cab3.jpg" alt="Innova" width="100%" />
+            <h3>Innova Crysta</h3>
+          </div>
+<div className="service-card">
+  <img src="/traveller.jpg" alt="Traveller" width="100%" />
+  <h3>Force Traveller</h3>
+</div>
+        </div>
+
+      </section>
+
+      {/* Mini Truck Vehicles */}
+
+      <section className="services">
+
+        <h2>Mini Truck Vehicles</h2>
+
+        <div className="service-grid">
+
+          <div className="service-card">
+            <img src="/truck1.jpg" alt="Mini Truck" width="100%" />
+            <h3>Mini Truck</h3>
+          </div>
+
+          <div className="service-card">
+            <img src="/truck2.jpg" alt="Tata Ace" width="100%" />
+            <h3>Tata Ace</h3>
+          </div>
+
+          <div className="service-card">
+            <img src="/truck3.jpg" alt="Traveller" width="100%" />
+            <h3>Tata Ace 8ft</h3>
           </div>
 
         </div>
 
       </section>
 
-      <section className="contact"><section className="services">
-
-  <h2>Our Vehicles</h2>
-
-  <div className="service-grid">
-
-    <div className="service-card">
-      <img src="/cab1.jpg" alt="Cab" width="100%" />
-      <h3>Suzuki Dzire</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/cab2.jpg" alt="Cab" width="100%" />
-      <h3>Toyota Etios</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/cab3.jpg" alt="Cab" width="100%" />
-      <h3>Innova Crysta</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/truck1.jpg" alt="Truck" width="100%" />
-      <h3>Mini Truck</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/truck2.jpg" alt="Truck" width="100%" />
-      <h3>Tata Ace</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/travels1.jpg" alt="Travel" width="100%" />
-      <h3>Tourist Vehicle</h3>
-    </div>
-
-  </div>
-
-</section><section className="services">
-
-  <h2>Our Vehicles</h2>
-
-  <div className="service-grid">
-
-    <div className="service-card">
-      <img src="/cab1.jpg" alt="Cab" width="100%" />
-      <h3>Suzuki Dzire</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/cab2.jpg" alt="Cab" width="100%" />
-      <h3>Toyota Etios</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/cab3.jpg" alt="Cab" width="100%" />
-      <h3>Innova Crysta</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/truck1.jpg" alt="Truck" width="100%" />
-      <h3>Mini Truck</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/truck2.jpg" alt="Truck" width="100%" />
-      <h3>Tata Ace</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/travels1.jpg" alt="Travel" width="100%" />
-      <h3>Tourist Vehicle</h3>
-    </div>
-
-  </div>
-
-</section><section className="services">
-
-  <h2>Our Vehicles</h2>
-
-  <div className="service-grid">
-
-    <div className="service-card">
-      <img src="/cab1.jpg" alt="Cab" width="100%" />
-      <h3>Suzuki Dzire</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/cab2.jpg" alt="Cab" width="100%" />
-      <h3>Toyota Etios</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/cab3.jpg" alt="Cab" width="100%" />
-      <h3>Innova Crysta</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/truck1.jpg" alt="Truck" width="100%" />
-      <h3>Mini Truck</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/truck2.jpg" alt="Truck" width="100%" />
-      <h3>Tata Ace</h3>
-    </div>
-
-    <div className="service-card">
-      <img src="/travels1.jpg" alt="Travel" width="100%" />
-      <h3>Tourist Vehicle</h3>
-    </div>
-
-  </div>
-
-</section>
+      <section className="contact">
 
         <h2>Contact Us</h2>
 
