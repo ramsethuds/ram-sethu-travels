@@ -46,11 +46,54 @@ export default function App() {
 
           <div className="booking-box">
 
-            <h2>Quick Booking</h2>
+          <form
+  className="space-y-4"
+  onSubmit={(e) => {
+    e.preventDefault();
 
-            <input type="text" placeholder="Pickup Location" />
+    const pickup = e.target.pickup.value;
+    const drop = e.target.drop.value;
+    const service = e.target.service.value;
 
-            <input type="text" placeholder="Drop Location" />
+    const message =
+      `Booking Request:%0A` +
+      `Pickup: ${pickup}%0A` +
+      `Drop: ${drop}%0A` +
+      `Service: ${service}`;
+
+    window.open(
+      `https://wa.me/917483908290?text=${message}`,
+      "_blank"
+    );
+  }}
+>
+  <input
+    type="text"
+    name="pickup"
+    placeholder="Pickup Location"
+    required
+  />
+
+  <input
+    type="text"
+    name="drop"
+    placeholder="Drop Location"
+    required
+  />
+
+  <select name="service" required>
+    <option value="">Select Service</option>
+    <option>Cab Booking</option>
+    <option>Mini Truck</option>
+    <option>Airport Drop</option>
+  </select>
+
+  <button type="submit">
+    Book on WhatsApp
+  </button>
+</form>
+
+          
 
             <select>
               <option>Select Service</option>
@@ -77,7 +120,7 @@ export default function App() {
 
           <div className="service-card">
             <img src="/cab1.jpg" alt="Swift" width="100%" />
-            <h3>Innova Crysta</h3>
+            <h3>Innova</h3>
           </div>
 
           <div className="service-card">
