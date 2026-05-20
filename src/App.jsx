@@ -1,11 +1,39 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
 
 function App() {
+  useEffect(() => {
+  AOS.init({
+    duration: 1000,
+  });
+}, []);
   return (
     <div>
 
       <header className="header">
-        <nav className="navbar">
+        
+
+        <div className="header-container">
+
+
+ <div className="logo-section">
+
+  <img
+    src="/logo.png"
+    alt="Logo"
+    className="logo"
+  />
+
+  <h1 className="logo-title">
+    RAM SETHU DS TOUR AND TRAVELS
+  </h1>
+
+</div>
+
+</div>
+<nav className="navbar">
 
   <a href="#home">Home</a>
 
@@ -16,10 +44,6 @@ function App() {
   <a href="#contact">Contact</a>
 
 </nav>
-
-        <h1 className="logo-title">
-  RAM SETHU DS TOUR AND TRAVELS
-</h1>
 
         <div className="header-buttons">
 
@@ -135,7 +159,7 @@ function App() {
 
       </section>
 
-      <section className="vehicles" id="vehicles">
+      <section className="vehicles" id="vehicles" data-aos="fade-up">
         <p className="vehicle-text">
   Choose from our comfortable cab and transport vehicles.
 </p>
@@ -234,7 +258,7 @@ function App() {
   </div>
 
 </section>
-      <section className="reviews" id="reviews">
+      <section className="reviews" data-aos="fade-right">
 
   <h2>Customer Reviews</h2>
   <p className="review-subtitle">
@@ -267,7 +291,7 @@ function App() {
   </div>
 
 </section>
-<section className="faq-section">
+<section className="faq" data-aos="fade-up">
 
   <h2>Frequently Asked Questions</h2>
 
@@ -302,7 +326,7 @@ function App() {
   </div>
 
 </section>
-<section className="gallery-section">
+<section className="gallery" data-aos="zoom-in">
 
   <h2>Our Service Gallery</h2>
 
