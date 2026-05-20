@@ -16,11 +16,10 @@ body,
   overflow-x: hidden;
 }
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
+
   background: #f5f5f5;
 }
-
 .header {
   position: sticky;
 
@@ -149,8 +148,8 @@ body {
 
 .vehicles-container {
   display: flex !important;
-
-  flex-direction: row !important;
+  
+flex-direction: row;
 
   justify-content: center;
 
@@ -281,16 +280,20 @@ body {
 
 .review-card:hover {
   transform: translateY(-10px);
-}.hero-text {
+}
+.hero-text {
   font-size: 20px;
   line-height: 1.8;
   margin-top: 20px;
-}.vehicle-image {
+}
+.vehicle-image {
   width: 80px;
   margin-bottom: 15px;
-}html {
+}
+html {
   scroll-behavior: smooth;
-}@media (max-width: 768px) {
+}
+@media (max-width: 768px) {
   }
 
   .hero {
@@ -330,11 +333,12 @@ body {
     
   }
 
-  .vehicle-grid,
-  .review-grid {
-    flex-direction: column;
-    align-items: center;
-  }
+  .vehicle-grid{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
 
   .header {
     flex-direction: column;
@@ -636,4 +640,21 @@ textarea:focus {
     box-shadow:
       0 12px 45px rgba(249,115,22,0.45);
   }
+}.vehicles-container {
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 30px;
+
+  width: 100%;
+
+  padding: 40px;
+
+  justify-items: center;
+}
+
+.vehicle-card {
+  width: 280px;
 }
