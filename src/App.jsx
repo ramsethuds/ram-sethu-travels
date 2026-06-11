@@ -1,3 +1,4 @@
+import { FaWhatsapp, FaFacebookF, FaInstagram } from "react-icons/fa";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -35,13 +36,45 @@ function App() {
 </div>
 <nav className="navbar">
 
-  <a href="#home">Home</a>
+  <div className="nav-links">
+    <a href="#home">Home</a>
 
-  <a href="#vehicles">Vehicles</a>
+    <a href="#vehicles">Vehicles</a>
 
-  <a href="#reviews">Reviews</a>
+    <a href="#reviews">Reviews</a>
 
-  <a href="#contact">Contact</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div className="social-links">
+
+  <a
+    href="https://wa.me/917483908290"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaWhatsapp />
+  </a>
+
+  <a
+    href="https://facebook.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaFacebookF />
+  </a>
+
+  <a
+    href="https://instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaInstagram />
+  </a>
+
+
+
+  </div>
 
 </nav>
 
@@ -179,30 +212,7 @@ function App() {
   <h3>Sedan</h3>
 
   <p>Comfortable city rides.</p>
-  <div className="social-links">
-
-  <a
-    href="https://wa.me/917483908290"
-    target="_blank"
-  >
-    WhatsApp
-  </a>
-
-  <a
-    href="https://facebook.com"
-    target="_blank"
-  >
-    Facebook
-  </a>
-
-  <a
-    href="https://instagram.com"
-    target="_blank"
-  >
-    Instagram
-  </a>
-
-</div>
+  
 </div>
 <div className="vehicle-card">
 

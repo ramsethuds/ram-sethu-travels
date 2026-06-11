@@ -88,6 +88,10 @@ body {
 }
 
 .booking-box {
+  .booking-box {
+  max-width: 450px;
+  width: 100%;
+}
   flex: 0 0 420px;
 
   width: 420px;
@@ -119,16 +123,13 @@ body {
 .booking-box input,
 .booking-box select,
 .booking-box textarea {
-  padding: 18px;
-
-  border-radius: 12px;
-
+  padding: 12px;
+  border-radius: 10px;
   border: none;
-
-  font-size: 16px;
-
+  font-size: 14px;
   background: rgba(255,255,255,0.9);
 }
+
 .booking-box button:hover{
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
@@ -139,6 +140,14 @@ body {
   background: darkorange;
   color: white;
   text-align: center;
+
+  width: 50%;
+  padding: 12px;
+  font-size: 15px;
+
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 
 .vehicles {
@@ -273,10 +282,57 @@ cursor: pointer;
 .navbar {
   display: flex;
 
-  gap: 35px;
+  justify-content: space-between;
+width: 100%;
 
   align-items: center;
   transition: 0.3s;
+}
+.nav-links {
+  display: flex;
+  gap: 35px;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.social-links a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+.social-links a:hover {
+  transform: translateY(-4px);
+  background: rgba(255,255,255,0.2);
+}
+.social-links a:nth-child(1) {
+  color: #25D366;   /* WhatsApp */
+}
+
+.social-links a:nth-child(2) {
+  color: #1877F2;   /* Facebook */
+}
+
+.social-links a:nth-child(3) {
+  color: #E4405F;   /* Instagram */
+}
+
+.social-links a:hover {
+  color: orange;
+}
+.social-links svg {
+  width: 50px !important;
+  height: 50px !important;
 }
 .navbar a{
   color: white;
@@ -357,7 +413,8 @@ html {
 
   .booking-box {
     width: 100%;
-    
+    max-width: 380px;
+padding: 25px;
   }
 
   .vehicle-grid{
@@ -384,20 +441,20 @@ html {
 }
 }
 
-  .navbar {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .navbar a {
-  color: white;
-
+.navbar a {
+  color: #FFD700;   /* Gold */
   text-decoration: none;
-
   font-size: 18px;
-
   font-weight: 600;
-
   transition: 0.3s;
+
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+  background: rgba(255, 215, 0, 0.15);
 }
 
 .navbar a:hover {
@@ -529,23 +586,36 @@ textarea:focus {
 
 .gallery-grid img:hover {
   transform: scale(1.05);
-}.terms-box {
+}
+.terms-box {
   display: flex;
   align-items: center;
   gap: 10px;
   color: #444;
   font-size: 14px;
-}.social-links {
+}
+
+.social-links {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  gap: 35px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .social-links a {
-  color: orange;
   text-decoration: none;
-  font-weight: bold;
+  color: darkorange;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s;
+  padding: 5px 10px;
+}
+
+.social-links a:hover {
+  color: orange;
+
 }.faq-section {
   padding: 60px 20px;
   background: white;
@@ -714,8 +784,11 @@ textarea:focus {
 }
 
 .hero-container {
-  grid-template-columns: 1fr;
-  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
 }
 
 .hero-text h1 {
@@ -723,6 +796,8 @@ textarea:focus {
 }
 
 .booking-box {
+  margin-right: auto;
+margin-left: 0;
   margin-top: 30px;
 }
 
